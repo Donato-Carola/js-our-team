@@ -13,3 +13,6 @@ Trasformare la stringa foto in una immagine effettiva
 BONUS 2:
 Organizzare i singoli membri in card/schede, potete usare come esempio lo screenshot,  
 ma anche realizzare qualcosa di creativo!!!*/
+
+
+
