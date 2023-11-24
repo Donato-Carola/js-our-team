@@ -2,11 +2,19 @@
 
 /*Creazione classe per calcolare la width diviso 3 per le carte*/
 
+
+
+main{
+   background-image: url('../img/sfondo.jpg');
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: center;
+   
+  
+   
+}
 .widthCard{
     width: calc(100% / 3 );
     
 }
 
-img{
-    width: 100%;
-}

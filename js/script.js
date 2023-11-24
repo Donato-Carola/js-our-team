@@ -66,7 +66,7 @@ for (let i = 0; i < team.length; i++) {
   sectionInfo.innerHTML += 
   `
   
-  <div class="card row mb-3" >
+  <div class="card row mb-3 border-0 " >
   <img src="${team[i].foto}" class="card-img-top p-0 " alt="${team[i].nome}">
   <div class="card-body text-center">
     <h5 class="card-title">${team[i].nome}</h5>
