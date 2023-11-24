@@ -1,0 +1,11 @@
+
+
+/*Creazione classe per calcolare la width diviso 3 per le carte*/
+
+.widthCard{
+    width: calc(100% / 3 );
+}
+
+img{
+    width: 100%;
+}
