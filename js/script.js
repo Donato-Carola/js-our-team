@@ -26,32 +26,32 @@ const team = [
   {
     nome: 'Wayne Barnett',
     ruolo: 'Founder & CEO',
-    foto: 'wayne-barnett-founder-ceo.jpg',
+    foto: 'img/wayne-barnett-founder-ceo.jpg',
   },
   {
     nome: 'Angela Caroll',
     ruolo: 'Chief Editor',
-    foto: 'wayne-barnett-founder-ceo.jpg',
+    foto: 'img/angela-caroll-chief-editor.jpg',
   },
   {
     nome: 'Walter Gordon',
     ruolo: 'Office Manager',
-    foto: 'wayne-barnett-founder-ceo.jpg',
+    foto: 'img/walter-gordon-office-manager.jpg',
   },
   {
     nome: 'Angela Lopez',
     ruolo: 'Social Media Manager',
-    foto: 'wayne-barnett-founder-ceo.jpg',
+    foto: 'img/angela-lopez-social-media-manager.jpg',
   },
   {
     nome: 'Scott Estrada',
     ruolo: 'Developer',
-    foto: 'wayne-barnett-founder-ceo.jpg',
+    foto: 'img/scott-estrada-developer.jpg',
   },
   {
     nome: 'Barbara Ramos',
     ruolo: 'Graphic Designer',
-    foto: 'wayne-barnett-founder-ceo.jpg',
+    foto: 'img/barbara-ramos-graphic-designer.jpg',
   },
 ];
 
@@ -65,8 +65,9 @@ for (let i = 0; i < team.length; i++) {
     
   sectionInfo.innerHTML += 
   `
-  <div class="card widthCard" >
-  <img src="${team[i].foto}" class="card-img-top" alt="${team[i].nome}">
+  
+  <div class="card row mb-3" >
+  <img src="${team[i].foto}" class="card-img-top p-0 " alt="${team[i].nome}">
   <div class="card-body text-center">
     <h5 class="card-title">${team[i].nome}</h5>
     <p class="card-text">${team[i].ruolo}</p>
