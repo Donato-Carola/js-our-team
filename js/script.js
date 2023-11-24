@@ -24,60 +24,72 @@ Barbara Ramos	Graphic Designer	barbara-ramos-graphic-designer.jpg*/
 
 const team = [
   {
-    nome: 'Wayne Barnett',
-    ruolo: 'Founder & CEO',
-    foto: 'img/wayne-barnett-founder-ceo.jpg',
+    nome: "Wayne Barnett",
+    ruolo: "Founder & CEO",
+    foto: "img/wayne-barnett-founder-ceo.jpg",
   },
   {
-    nome: 'Angela Caroll',
-    ruolo: 'Chief Editor',
-    foto: 'img/angela-caroll-chief-editor.jpg',
+    nome: "Angela Caroll",
+    ruolo: "Chief Editor",
+    foto: "img/angela-caroll-chief-editor.jpg",
   },
   {
-    nome: 'Walter Gordon',
-    ruolo: 'Office Manager',
-    foto: 'img/walter-gordon-office-manager.jpg',
+    nome: "Walter Gordon",
+    ruolo: "Office Manager",
+    foto: "img/walter-gordon-office-manager.jpg",
   },
   {
-    nome: 'Angela Lopez',
-    ruolo: 'Social Media Manager',
-    foto: 'img/angela-lopez-social-media-manager.jpg',
+    nome: "Angela Lopez",
+    ruolo: "Social Media Manager",
+    foto: "img/angela-lopez-social-media-manager.jpg",
   },
   {
-    nome: 'Scott Estrada',
-    ruolo: 'Developer',
-    foto: 'img/scott-estrada-developer.jpg',
+    nome: "Scott Estrada",
+    ruolo: "Developer",
+    foto: "img/scott-estrada-developer.jpg",
   },
   {
-    nome: 'Barbara Ramos',
-    ruolo: 'Graphic Designer',
-    foto: 'img/barbara-ramos-graphic-designer.jpg',
+    nome: "Barbara Ramos",
+    ruolo: "Graphic Designer",
+    foto: "img/barbara-ramos-graphic-designer.jpg",
   },
 ];
 
+                         /*Usare console.log per vedere l'array di oggetti*/
+                         
 console.log(team);
 
+                         /*richiamo i due tag per inserire gli altri elementi al loro interno*/
 
- //
 const mainParent = document.querySelector("section");
-  const sectionInfo = document.querySelector("main>section>article");
+const sectionInfo = document.querySelector("main>section>article");
+
+                           /*inizio il ciclo for per la stampa a video, finchè non arriva alla lunghezza dell'array di oggetti*/
+
 for (let i = 0; i < team.length; i++) {
-    
+
+
+                           /* Costruisco la mia struttura da far comparire sullo schermo*/
+
   sectionInfo.innerHTML += 
-  `
+`
   
-  <div class="card row mb-3 border-0 " >
-  <img src="${team[i].foto}" class="card-img-top p-0 " alt="${team[i].nome}">
+ <div class="card mb-3 border-0 " >
+     <img src="${team[i].foto}" class="card-img-top p-0 " alt="${team[i].nome}">
   <div class="card-body text-center">
     <h5 class="card-title">${team[i].nome}</h5>
     <p class="card-text">${team[i].ruolo}</p>
-    
-  </div>
-</div>
+   </div>
+ </div>
+`;
   
-    `
+                         /*inserisco gli elementi nella section, aggiungendo il figlio article al padre*/
+
   mainParent.appendChild(sectionInfo);
 }
- /*<img src="${team[i].foto}" alt="${team[i].nome}"></img>
+
+
+
+/*<img src="${team[i].foto}" alt="${team[i].nome}"></img>
     <p>${team[i].nome}</p>
     <p>${team[i].ruolo}</p>*/
