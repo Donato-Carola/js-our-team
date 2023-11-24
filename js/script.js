@@ -1,6 +1,6 @@
 
 
-/*Utilizzando i dati forniti, creare un array di oggetti per rappresentare i membri del team.
+/* Utilizzando i dati forniti, creare un array di oggetti per rappresentare i membri del team.
 Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
 MILESTONE 0:
 Creare l’array di oggetti con le informazioni fornite.
@@ -11,4 +11,5 @@ Stampare le stesse informazioni su DOM sottoforma di stringhe
 BONUS 1:
 Trasformare la stringa foto in una immagine effettiva
 BONUS 2:
-Organizzare i singoli membri in card/schede, potete usare come esempio lo screenshot,  ma anche realizzare qualcosa di creativo!!!*/
+Organizzare i singoli membri in card/schede, potete usare come esempio lo screenshot,  
+ma anche realizzare qualcosa di creativo!!!*/
